@@ -860,3 +860,8 @@
 .flash {
   animation-name: flash;
 }
+
+
+#smallcodeodconductDiv {
+ height: 45vh !important;
+}
