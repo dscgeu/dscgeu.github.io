@@ -155,20 +155,7 @@
      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
      <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
      <script src="../assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
+     <!-- JS for Dropdown Menu -->
+     <script src="../assets/js/script.js" type="text/javascript"></script>
  </body>
- <script>
-
-        var colors = ["#FF3E30", "#F7B527", "#179C52"]
-       $('.dropdown-menu').find('a').each(function(x, index){
-           var navlink = $(this);
-           var color = colors[(x%(colors.length))];
-           var ci = navlink.css('backgroundColor');
-       
-           navlink.hover(function() {
-                $(this).css("background-color",color)
-           }).mouseout(function(){
-                 $(this).css({"background-color":"#ffffff",});
-           });;    
-       });
-   </script>
  </html>
