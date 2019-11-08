@@ -1,3 +1,3 @@
-# DSC GEU
+# Developer Student Club GEU official website
 
-Official Website Of DSC GEU
+This is the official website for DSC GEU. All event details and other guidelines would be found here.
