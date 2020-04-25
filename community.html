@@ -2,6 +2,7 @@
 <html lang="en">
 
 <!-- HEAD BLOCK  -->
+
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="../assets/final_img/favicon.png">
@@ -83,17 +84,19 @@
 
     <!-- HEADER  -->
     <div class="page-header header-filter" data-parallax="true"
-        style="background-image: url('../assets/final_img/background.svg')">
-        <div class="container">
+        style="background-image: url('../assets/final_img/background.svg')" id="smallHeight">
+        <div class="container" id="top-header">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 class="title">Welcome</h1>
-                    <h4>Developer Student Club GEU is forming a student community focused on building and imparting technical
+                    <h1 class="title" id="title-main">Welcome</h1>
+                    <h4>Developer Student Club GEU is forming a student community focused on building and imparting
+                        technical
                         skills to students, so that their transition to industry professionals becomes easier. We figure
                         out problems, and then we figure out solutions, all through technology.</h4>
                     <br>
-                    <a href="#aboutus" class="btn btn-info btn-raised btn-lg">
-                        <i class="fa fa-play"></i> About Us
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1EAElqC_99GlBQjVmQHKZpgxdGXrGIyknuE5xKj2CQD_aCw/viewform?usp=sf_link"
+                        class="btn btn-danger btn-raised btn-lg">
+                        Register Now
                     </a>
                 </div>
             </div>
@@ -108,7 +111,7 @@
             <div class="section text-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h2 class="title">What we do?</h2>
+                        <h2 class="title">Our Aim For Community</h2>
                         <h5 class="description">Our main focus is on making students better at building through tech. To
                             do this
                             we do a lot of other things like:
@@ -153,7 +156,13 @@
 
             <!-- OUR TEAM WITH LINKS  -->
             <div class="section text-center">
-                <h2 class="title" id="team-sec">Here is our team</h2>
+
+                <h1 class="title">Our Team</h1>
+                <hr />
+
+
+                <!-- Team one  -->
+                <h2 class="title" id="team-sec">Dsc Core Memebers</h2>
                 <div class="team">
                     <div class="row">
                         <div class="col-md-4">
@@ -169,7 +178,7 @@
                                     </h4>
 
                                     <div class="card-footer justify-content-center">
-                                        <a href="http://github.com/bistaastha" class="btn btn-link btn-just-icon"><i
+                                        <a href="https://github.com/bistaastha" class="btn btn-link btn-just-icon"><i
                                                 class="fa fa-github"></i></a>
                                         <a href="https://www.linkedin.com/in/bistaastha/"
                                             class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>
@@ -189,9 +198,11 @@
                                         <small class="card-description text-muted">DSC Tech Member</small>
                                     </h4>
                                     <div class="card-footer justify-content-center">
-                                        <a href="http://github.com/amanjagdev" class="btn btn-link btn-just-icon"><i
+                                        <a href="https://github.com/amanjagdev" class="btn btn-link btn-just-icon"><i
                                                 class="fa fa-github"></i></a>
-                                        <a href="http://instagram.com/aman.kr.jagdev"
+                                        <a href="https://www.linkedin.com/in/amanjagdev"
+                                            class="btn btn-link btn-just-icon"><i class="fa fa-linkedin"></i></a>
+                                        <a href="https://instagram.com/amankrjagdev"
                                             class="btn btn-link btn-just-icon"><i class="fa fa-instagram"></i></a>
                                     </div>
                                 </div>
@@ -219,6 +230,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
 
         </div>
@@ -256,8 +269,6 @@
     <script src="../assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
     <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
     <script src="../assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-    <!--  Google Maps Plugin    -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
     <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
     <script src="../assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
     <!-- JS for Dropdown Menu -->

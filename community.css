@@ -1,0 +1,12 @@
+#top-header {
+  border-radius: 20px;
+  text-shadow: 2px 2px 4px #3C4858;
+}
+
+.section{
+    padding-bottom: 3px !important;
+}
+
+#smallHeight {
+    height: 83vh !important;
+}
